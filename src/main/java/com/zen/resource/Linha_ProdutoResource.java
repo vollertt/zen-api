@@ -25,4 +25,5 @@ public class Linha_ProdutoResource {
 	public List<Linha_produto> getLinhaProduto(@RequestParam int id_grupo_produto)  {				    
 		return linha_ProdutoRepository.findByIdGrupo(id_grupo_produto);	
 	}	
+	
 }
